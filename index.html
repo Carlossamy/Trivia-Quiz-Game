@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Images/logo.png" type="image/png" />
+    <title>QuizMania</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="quiz-box">
+        <h2 id="question" class="question-text"></h2>
+        <div class="answer-options">
+          <button class="answer-btn" onclick="checkAnswer(0)">Option 1</button>
+          <button class="answer-btn" onclick="checkAnswer(1)">Option 2</button>
+          <button class="answer-btn" onclick="checkAnswer(2)">Option 3</button>
+          <button class="answer-btn" onclick="checkAnswer(3)">Option 4</button>
+        </div>
+        <button id="next-btn" class="next-btn" onclick="nextQuestion()">
+          Next
+        </button>
+        <p id="score" class="score"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
