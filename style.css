@@ -61,4 +61,43 @@ body {
 .score {
     font-size: 16px;
     color: #4B0082;
+    margin-top: 10px;
+}
+
+/*------------------------------------- Responsive Styles -------------------------------*/
+@media (max-width: 768px) {
+    .quiz-box {
+        padding: 15px;
+    }
+
+    .question-text {
+        font-size: 16px;
+    }
+
+    .answer-btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .next-btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .answer-btn {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .next-btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .quiz-box {
+        width: 100%;
+        padding: 10px;
+    }
 }
